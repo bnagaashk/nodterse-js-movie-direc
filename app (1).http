@@ -1,0 +1,28 @@
+###
+GET http://localhost:3000/movies/
+###
+POST http://localhost:3000/movies/
+Content-Type:application/json
+
+{
+  "directorId": 7,
+  "movieName": "Jurassictv",
+  "leadActor": "nagaashok"
+}
+###
+GET http://localhost:3000/movies/46
+###
+PUT http://localhost:3000/movies/50
+
+{
+  "directorId": 24,
+  "movieName": "Thor",
+  "leadActor": "Christopher Hemsworth"
+}
+###
+DELETE http://localhost:3000/movies/46
+###
+GET http://localhost:3000/directors/
+
+###
+GET http://localhost:3000/directors/7/movies/
